@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316B92274F5D80006E970 /* FirstViewController.swift */; };
+		430316C0227506370006E970 /* ShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316BF227506370006E970 /* ShakeViewController.swift */; };
 		431257642271071400C24EC6 /* ImpactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431257632271071400C24EC6 /* ImpactModel.swift */; };
 		4312576622710A3300C24EC6 /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576522710A3300C24EC6 /* BusinessModel.swift */; };
 		4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576722710A4300C24EC6 /* OtherFactorModel.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430316B92274F5D80006E970 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		430316BF227506370006E970 /* ShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeViewController.swift; sourceTree = "<group>"; };
 		431257632271071400C24EC6 /* ImpactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactModel.swift; sourceTree = "<group>"; };
 		4312576522710A3300C24EC6 /* BusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
 		4312576722710A4300C24EC6 /* OtherFactorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFactorModel.swift; sourceTree = "<group>"; };
@@ -84,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		430316BC227503F70006E970 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				431257632271071400C24EC6 /* ImpactModel.swift */,
+				4312576522710A3300C24EC6 /* BusinessModel.swift */,
+				4312576722710A4300C24EC6 /* OtherFactorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		438277992270F9AB005CAB55 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +121,7 @@
 		438277A42270F9AB005CAB55 /* Dev_Final */ = {
 			isa = PBXGroup;
 			children = (
+				430316BC227503F70006E970 /* Models */,
 				4312576B22710DEE00C24EC6 /* AddViewController.swift */,
 				438277A52270F9AB005CAB55 /* AppDelegate.swift */,
 				438277A72270F9AB005CAB55 /* ViewController.swift */,
@@ -115,9 +130,8 @@
 				438277AC2270F9AC005CAB55 /* Assets.xcassets */,
 				438277AE2270F9AC005CAB55 /* LaunchScreen.storyboard */,
 				438277B12270F9AC005CAB55 /* Info.plist */,
-				431257632271071400C24EC6 /* ImpactModel.swift */,
-				4312576522710A3300C24EC6 /* BusinessModel.swift */,
-				4312576722710A4300C24EC6 /* OtherFactorModel.swift */,
+				430316B92274F5D80006E970 /* FirstViewController.swift */,
+				430316BF227506370006E970 /* ShakeViewController.swift */,
 			);
 			path = Dev_Final;
 			sourceTree = "<group>";
@@ -274,9 +288,11 @@
 				4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */,
 				438277A82270F9AB005CAB55 /* ViewController.swift in Sources */,
 				4312576C22710DEE00C24EC6 /* AddViewController.swift in Sources */,
+				430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */,
 				431257642271071400C24EC6 /* ImpactModel.swift in Sources */,
 				438277A62270F9AB005CAB55 /* AppDelegate.swift in Sources */,
 				4312576622710A3300C24EC6 /* BusinessModel.swift in Sources */,
+				430316C0227506370006E970 /* ShakeViewController.swift in Sources */,
 				4312576E22710F2700C24EC6 /* NotesTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

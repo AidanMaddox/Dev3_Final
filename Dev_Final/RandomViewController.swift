@@ -1,23 +1,28 @@
 //
-//  AddViewController.swift
+//  RandomViewController.swift
 //  Dev_Final
 //
-//  Created by Aidan Maddox on 4/24/19.
+//  Created by Aidan Maddox on 4/27/19.
 //  Copyright © 2019 Aidan Maddox. All rights reserved.
 //
 
 import UIKit
 
-class AddViewController: UIViewController {
+class ShakeViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //
+
         // Do any additional setup after loading the view.
     }
+    //detect shake gesture
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake { //if detected sgesture is a
+            
+            }
+        }
     
-
+    
     /*
     // MARK: - Navigation
 

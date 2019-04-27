@@ -1,19 +1,19 @@
 //
-//  AddViewController.swift
+//  FirstViewController.swift
 //  Dev_Final
 //
-//  Created by Aidan Maddox on 4/24/19.
+//  Created by Aidan Maddox on 4/27/19.
 //  Copyright © 2019 Aidan Maddox. All rights reserved.
 //
 
 import UIKit
 
-class AddViewController: UIViewController {
+class FirstViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //
+        //tabBar.selectedItem = [tabBarItem selectedIndex:1]; // set defualt tab
+        self.selectedIndex = 1; // set default tab
         // Do any additional setup after loading the view.
     }
     

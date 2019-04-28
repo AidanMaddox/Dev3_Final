@@ -407,5 +407,22 @@ class ImpactModel{
         
         
     }
+    func addWord(name: String, description: String){
+        //possibly check to see if already in places
+        var card = [ImpactModel.key1: name, ImpactModel.key2: description]
+        impacts.append(card)
+    }
+    
+    func save() {
+        print("Save to file")
+        
+        // save the array of dictionary objects to a plist
+        (impacts as NSArray).write(toFile: filepath, atomically: true)
+        
+    }
+    
+    func numberOfWords() -> Int{
+        return impacts.count
+    }
     
 }

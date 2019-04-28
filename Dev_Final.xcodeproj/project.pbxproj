@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316B92274F5D80006E970 /* FirstViewController.swift */; };
 		430316C0227506370006E970 /* ShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316BF227506370006E970 /* ShakeViewController.swift */; };
+		430316C22275169D0006E970 /* BusinessAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C12275169D0006E970 /* BusinessAddViewController.swift */; };
+		430316C4227516AC0006E970 /* ImpactAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C3227516AC0006E970 /* ImpactAddViewController.swift */; };
+		430316C6227516BD0006E970 /* OtherAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C5227516BD0006E970 /* OtherAddViewController.swift */; };
+		430316C922751B500006E970 /* BusinessTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C822751B500006E970 /* BusinessTableView.swift */; };
 		431257642271071400C24EC6 /* ImpactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431257632271071400C24EC6 /* ImpactModel.swift */; };
 		4312576622710A3300C24EC6 /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576522710A3300C24EC6 /* BusinessModel.swift */; };
 		4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576722710A4300C24EC6 /* OtherFactorModel.swift */; };
-		4312576C22710DEE00C24EC6 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576B22710DEE00C24EC6 /* AddViewController.swift */; };
 		4312576E22710F2700C24EC6 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576D22710F2700C24EC6 /* NotesTableViewController.swift */; };
 		438277A62270F9AB005CAB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438277A52270F9AB005CAB55 /* AppDelegate.swift */; };
 		438277A82270F9AB005CAB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438277A72270F9AB005CAB55 /* ViewController.swift */; };
@@ -43,10 +46,13 @@
 /* Begin PBXFileReference section */
 		430316B92274F5D80006E970 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		430316BF227506370006E970 /* ShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeViewController.swift; sourceTree = "<group>"; };
+		430316C12275169D0006E970 /* BusinessAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAddViewController.swift; sourceTree = "<group>"; };
+		430316C3227516AC0006E970 /* ImpactAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAddViewController.swift; sourceTree = "<group>"; };
+		430316C5227516BD0006E970 /* OtherAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAddViewController.swift; sourceTree = "<group>"; };
+		430316C822751B500006E970 /* BusinessTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableView.swift; sourceTree = "<group>"; };
 		431257632271071400C24EC6 /* ImpactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactModel.swift; sourceTree = "<group>"; };
 		4312576522710A3300C24EC6 /* BusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
 		4312576722710A4300C24EC6 /* OtherFactorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFactorModel.swift; sourceTree = "<group>"; };
-		4312576B22710DEE00C24EC6 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		4312576D22710F2700C24EC6 /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 		438277A22270F9AB005CAB55 /* Dev_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		438277A52270F9AB005CAB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +104,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		430316C7227516C50006E970 /* Glossary Add View */ = {
+			isa = PBXGroup;
+			children = (
+				430316C12275169D0006E970 /* BusinessAddViewController.swift */,
+				430316C3227516AC0006E970 /* ImpactAddViewController.swift */,
+				430316C5227516BD0006E970 /* OtherAddViewController.swift */,
+			);
+			path = "Glossary Add View";
+			sourceTree = "<group>";
+		};
 		438277992270F9AB005CAB55 = {
 			isa = PBXGroup;
 			children = (
@@ -122,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				430316BC227503F70006E970 /* Models */,
-				4312576B22710DEE00C24EC6 /* AddViewController.swift */,
 				438277A52270F9AB005CAB55 /* AppDelegate.swift */,
 				438277A72270F9AB005CAB55 /* ViewController.swift */,
 				438277A92270F9AB005CAB55 /* Main.storyboard */,
@@ -132,6 +147,8 @@
 				438277B12270F9AC005CAB55 /* Info.plist */,
 				430316B92274F5D80006E970 /* FirstViewController.swift */,
 				430316BF227506370006E970 /* ShakeViewController.swift */,
+				430316C7227516C50006E970 /* Glossary Add View */,
+				430316C822751B500006E970 /* BusinessTableView.swift */,
 			);
 			path = Dev_Final;
 			sourceTree = "<group>";
@@ -285,13 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430316C6227516BD0006E970 /* OtherAddViewController.swift in Sources */,
 				4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */,
 				438277A82270F9AB005CAB55 /* ViewController.swift in Sources */,
-				4312576C22710DEE00C24EC6 /* AddViewController.swift in Sources */,
 				430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */,
 				431257642271071400C24EC6 /* ImpactModel.swift in Sources */,
+				430316C4227516AC0006E970 /* ImpactAddViewController.swift in Sources */,
 				438277A62270F9AB005CAB55 /* AppDelegate.swift in Sources */,
+				430316C22275169D0006E970 /* BusinessAddViewController.swift in Sources */,
 				4312576622710A3300C24EC6 /* BusinessModel.swift in Sources */,
+				430316C922751B500006E970 /* BusinessTableView.swift in Sources */,
 				430316C0227506370006E970 /* ShakeViewController.swift in Sources */,
 				4312576E22710F2700C24EC6 /* NotesTableViewController.swift in Sources */,
 			);

@@ -13,6 +13,9 @@
 		430316C4227516AC0006E970 /* ImpactAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C3227516AC0006E970 /* ImpactAddViewController.swift */; };
 		430316C6227516BD0006E970 /* OtherAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C5227516BD0006E970 /* OtherAddViewController.swift */; };
 		430316C922751B500006E970 /* BusinessTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C822751B500006E970 /* BusinessTableView.swift */; };
+		430316CB227527FB0006E970 /* NotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316CA227527FB0006E970 /* NotesModel.swift */; };
+		430316CE227529F70006E970 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316CD227529F70006E970 /* AddNoteViewController.swift */; };
+		430316D022752A330006E970 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316CF22752A330006E970 /* AddPhotoViewController.swift */; };
 		431257642271071400C24EC6 /* ImpactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431257632271071400C24EC6 /* ImpactModel.swift */; };
 		4312576622710A3300C24EC6 /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576522710A3300C24EC6 /* BusinessModel.swift */; };
 		4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4312576722710A4300C24EC6 /* OtherFactorModel.swift */; };
@@ -50,6 +53,9 @@
 		430316C3227516AC0006E970 /* ImpactAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAddViewController.swift; sourceTree = "<group>"; };
 		430316C5227516BD0006E970 /* OtherAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAddViewController.swift; sourceTree = "<group>"; };
 		430316C822751B500006E970 /* BusinessTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTableView.swift; sourceTree = "<group>"; };
+		430316CA227527FB0006E970 /* NotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesModel.swift; sourceTree = "<group>"; };
+		430316CD227529F70006E970 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		430316CF22752A330006E970 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 		431257632271071400C24EC6 /* ImpactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactModel.swift; sourceTree = "<group>"; };
 		4312576522710A3300C24EC6 /* BusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
 		4312576722710A4300C24EC6 /* OtherFactorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFactorModel.swift; sourceTree = "<group>"; };
@@ -94,14 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		430316BC227503F70006E970 /* Models */ = {
+		430316BC227503F70006E970 /* GlossaryModels */ = {
 			isa = PBXGroup;
 			children = (
 				431257632271071400C24EC6 /* ImpactModel.swift */,
 				4312576522710A3300C24EC6 /* BusinessModel.swift */,
 				4312576722710A4300C24EC6 /* OtherFactorModel.swift */,
 			);
-			path = Models;
+			path = GlossaryModels;
 			sourceTree = "<group>";
 		};
 		430316C7227516C50006E970 /* Glossary Add View */ = {
@@ -112,6 +118,16 @@
 				430316C5227516BD0006E970 /* OtherAddViewController.swift */,
 			);
 			path = "Glossary Add View";
+			sourceTree = "<group>";
+		};
+		430316CC227529D70006E970 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				430316CA227527FB0006E970 /* NotesModel.swift */,
+				430316CD227529F70006E970 /* AddNoteViewController.swift */,
+				430316CF22752A330006E970 /* AddPhotoViewController.swift */,
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 		438277992270F9AB005CAB55 = {
@@ -137,8 +153,9 @@
 		438277A42270F9AB005CAB55 /* Dev_Final */ = {
 			isa = PBXGroup;
 			children = (
-				430316BC227503F70006E970 /* Models */,
+				430316BC227503F70006E970 /* GlossaryModels */,
 				438277A52270F9AB005CAB55 /* AppDelegate.swift */,
+				430316CC227529D70006E970 /* Notes */,
 				438277A72270F9AB005CAB55 /* ViewController.swift */,
 				438277A92270F9AB005CAB55 /* Main.storyboard */,
 				4312576D22710F2700C24EC6 /* NotesTableViewController.swift */,
@@ -302,11 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430316CE227529F70006E970 /* AddNoteViewController.swift in Sources */,
 				430316C6227516BD0006E970 /* OtherAddViewController.swift in Sources */,
 				4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */,
+				430316CB227527FB0006E970 /* NotesModel.swift in Sources */,
 				438277A82270F9AB005CAB55 /* ViewController.swift in Sources */,
 				430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */,
 				431257642271071400C24EC6 /* ImpactModel.swift in Sources */,
+				430316D022752A330006E970 /* AddPhotoViewController.swift in Sources */,
 				430316C4227516AC0006E970 /* ImpactAddViewController.swift in Sources */,
 				438277A62270F9AB005CAB55 /* AppDelegate.swift in Sources */,
 				430316C22275169D0006E970 /* BusinessAddViewController.swift in Sources */,

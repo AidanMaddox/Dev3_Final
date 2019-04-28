@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="3900" y="-324"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Note View Controller-->
         <scene sceneID="XJk-fy-cgm">
             <objects>
-                <viewController id="w1x-ry-MJJ" sceneMemberID="viewController">
+                <viewController id="w1x-ry-MJJ" customClass="AddNoteViewController" customModule="Dev_Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PaC-0f-JQe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,7 @@
                                 <items>
                                     <navigationItem title="New Idea" id="Nlg-tI-gB2">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Cpd-vS-kCm"/>
+                                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Next" id="fbD-di-TkM"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -137,26 +138,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="af4-l5-yXJ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="af4-l5-yXJ">
                                 <rect key="frame" x="16" y="396" width="328" height="149"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1mO-ZM-i8T">
-                                <rect key="frame" x="171" y="580" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
-                                <connections>
-                                    <segue destination="CJX-Aq-Ynr" kind="show" id="sLS-SL-RlB"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="hgc-ig-w3u" firstAttribute="leading" secondItem="p0d-4F-mgg" secondAttribute="leading" id="5Qq-rU-mjd"/>
                             <constraint firstItem="hgc-ig-w3u" firstAttribute="trailing" secondItem="p0d-4F-mgg" secondAttribute="trailing" id="Ram-qx-YL2"/>
+                            <constraint firstItem="p0d-4F-mgg" firstAttribute="bottom" secondItem="af4-l5-yXJ" secondAttribute="bottom" constant="15" id="eVF-1b-U99"/>
                             <constraint firstItem="hgc-ig-w3u" firstAttribute="top" secondItem="p0d-4F-mgg" secondAttribute="top" id="iMc-BE-cPG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p0d-4F-mgg"/>
@@ -278,10 +271,10 @@
             </objects>
             <point key="canvasLocation" x="5002" y="-671"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Photo View Controller-->
         <scene sceneID="0UI-B7-EUw">
             <objects>
-                <viewController id="CJX-Aq-Ynr" sceneMemberID="viewController">
+                <viewController id="CJX-Aq-Ynr" customClass="AddPhotoViewController" customModule="Dev_Final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uwj-fH-DH6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

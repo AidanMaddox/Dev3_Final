@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16FA84C1227980CE008986D7 /* LoginMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA84C0227980CE008986D7 /* LoginMenuViewController.swift */; };
+		16FA84C3227980E1008986D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA84C2227980E1008986D7 /* LoginViewController.swift */; };
+		16FA84C522798102008986D7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FA84C422798102008986D7 /* SignUpViewController.swift */; };
 		430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316B92274F5D80006E970 /* FirstViewController.swift */; };
 		430316C0227506370006E970 /* ShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316BF227506370006E970 /* ShakeViewController.swift */; };
 		430316C22275169D0006E970 /* BusinessAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430316C12275169D0006E970 /* BusinessAddViewController.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16FA84C0227980CE008986D7 /* LoginMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMenuViewController.swift; sourceTree = "<group>"; };
+		16FA84C2227980E1008986D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		16FA84C422798102008986D7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		430316B92274F5D80006E970 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		430316BF227506370006E970 /* ShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeViewController.swift; sourceTree = "<group>"; };
 		430316C12275169D0006E970 /* BusinessAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAddViewController.swift; sourceTree = "<group>"; };
@@ -166,6 +172,9 @@
 				430316BF227506370006E970 /* ShakeViewController.swift */,
 				430316C7227516C50006E970 /* Glossary Add View */,
 				430316C822751B500006E970 /* BusinessTableView.swift */,
+				16FA84C0227980CE008986D7 /* LoginMenuViewController.swift */,
+				16FA84C2227980E1008986D7 /* LoginViewController.swift */,
+				16FA84C422798102008986D7 /* SignUpViewController.swift */,
 			);
 			path = Dev_Final;
 			sourceTree = "<group>";
@@ -324,6 +333,8 @@
 				4312576822710A4300C24EC6 /* OtherFactorModel.swift in Sources */,
 				430316CB227527FB0006E970 /* NotesModel.swift in Sources */,
 				438277A82270F9AB005CAB55 /* ViewController.swift in Sources */,
+				16FA84C1227980CE008986D7 /* LoginMenuViewController.swift in Sources */,
+				16FA84C522798102008986D7 /* SignUpViewController.swift in Sources */,
 				430316BA2274F5D80006E970 /* FirstViewController.swift in Sources */,
 				431257642271071400C24EC6 /* ImpactModel.swift in Sources */,
 				430316D022752A330006E970 /* AddPhotoViewController.swift in Sources */,
@@ -331,6 +342,7 @@
 				438277A62270F9AB005CAB55 /* AppDelegate.swift in Sources */,
 				430316C22275169D0006E970 /* BusinessAddViewController.swift in Sources */,
 				4312576622710A3300C24EC6 /* BusinessModel.swift in Sources */,
+				16FA84C3227980E1008986D7 /* LoginViewController.swift in Sources */,
 				430316C922751B500006E970 /* BusinessTableView.swift in Sources */,
 				430316C0227506370006E970 /* ShakeViewController.swift in Sources */,
 				4312576E22710F2700C24EC6 /* NotesTableViewController.swift in Sources */,

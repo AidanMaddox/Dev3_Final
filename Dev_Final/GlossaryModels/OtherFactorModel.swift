@@ -88,6 +88,36 @@ class OtherFactorModel{
         
         
     }
+    func addWord(name: String, description: String){
+        //possibly check to see if already in places
+        let card = [ImpactModel.key1: name, ImpactModel.key2: description]
+        impacts.append(card)
+    }
     
+    func save() {
+        print("Save to file")
+        
+        // save the array of dictionary objects to a plist
+        (impacts as NSArray).write(toFile: filepath, atomically: true)
+        
+    }
+    
+    func numberOfWords() -> Int{
+        return impacts.count
+    }
+    //return a flashcard at given index and update the current index if shouldUpdateCurrent index is true
+    func word(at index: Int, shouldUpdateCurrentIndex: Bool) -> [String : String]? {
+        //ensure index is valid
+        if index >= 0 && index < impacts.count {
+            //check to update or not
+            if(shouldUpdateCurrentIndex == true) { //if they want to update. update here
+                currentIndex = index
+            }
+            return impacts[index]
+        }
+        else {
+            return nil //return nil if invalid index
+        }
+    }
 }
 

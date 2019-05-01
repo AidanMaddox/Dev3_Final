@@ -19,7 +19,7 @@ class BusinessModel{
     static let key2 = "description"
     
     var keys:[String]
-    private var impacts: [[String:String]]
+    private var impacts: [[String:String]] //create array of dictionary items
     var currentIndex: Int?    //Initializes currentIndex to value nil
     
     init() {

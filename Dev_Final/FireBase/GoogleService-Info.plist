@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>336028205983-vam5m30ifnhatlgd1jk3c9gd0oj134a6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.336028205983-vam5m30ifnhatlgd1jk3c9gd0oj134a6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBl_Ofyiig6sG6mBDNIFkShvYYltbL7mgg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>336028205983</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.usc.agmaddox.Dev-Final</string>
+	<key>PROJECT_ID</key>
+	<string>models-of-impact</string>
+	<key>STORAGE_BUCKET</key>
+	<string>models-of-impact.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:336028205983:ios:078fc0823dfac655</string>
+	<key>DATABASE_URL</key>
+	<string>https://models-of-impact.firebaseio.com</string>
+</dict>
+</plist>
